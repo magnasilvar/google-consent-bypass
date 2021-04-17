@@ -1,6 +1,10 @@
 # Google Consent Bypass
 ![Google Consent Bypass logo](src/images/icon128.png)
 
+[![GitHub Release](https://img.shields.io/github/release/magnasilvar/google-consent-bypass.svg)](https://github.com/magnasilvar/google-consent-bypass/releases)
+![CI](https://github.com/magnasilvar/google-consent-bypass/workflows/CI/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=magnasilvar_google-consent-bypass&metric=alert_status)](https://sonarcloud.io/dashboard?id=magnasilvar_google-consent-bypass)
+
 **Google Consent Bypass** is a basic *Chrome extension* (based on *Manifest V3*) that hides the European cookie consent panel from Google Search.
 
 ## Privacy
