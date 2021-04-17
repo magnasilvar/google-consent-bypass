@@ -1,0 +1,23 @@
+{
+  "consent_panel_hidden": {
+    "message": "Le panneau de consentement des cookies Google est actuellement caché."
+  },
+  "consent_panel_unknown": {
+    "message": "Le panneau de consentement des cookies Google n'a pas pu être caché. Attention, vous avez peut-être un cookie Google sur votre machine !"
+  },
+  "extension_desc": {
+    "message": "Google Consent Bypass cache le panneau de consentement européen des cookies de Google Search."
+  },
+  "extension_title": {
+    "message": "Google Consent Bypass"
+  },
+  "extension_title_logo": {
+    "message": "Logo de Google Consent Bypass"
+  },
+  "github": {
+    "message": "🖱️ Forker Google Consent Bypass sur <b>GitHub</b> !"
+  },
+  "not_supported": {
+    "message": "Page non prise en charge."
+  }
+}

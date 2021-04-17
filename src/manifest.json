@@ -1,0 +1,80 @@
+{
+  "name": "__MSG_extension_title__",
+  "homepage_url": "https://github.com/magnasilvar/google-consent-bypass/",
+  "description": "__MSG_extension_desc__",
+  "version": "0.1.0",
+  "default_locale": "en",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "__MSG_extension_title__ - __MSG_not_supported__",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://www.google.ad/",
+    "*://www.google.be/",
+    "*://www.google.ca/",
+    "*://www.google.ch/",
+    "*://www.google.co.jp/",
+    "*://www.google.co.nz/",
+    "*://www.google.co.uk/",
+    "*://www.google.com/",
+    "*://www.google.com.au/",
+    "*://www.google.de/",
+    "*://www.google.dz/",
+    "*://www.google.es/",
+    "*://www.google.fr/",
+    "*://www.google.gp/",
+    "*://www.google.lu/",
+    "*://www.google.ma/",
+    "*://www.google.pt/",
+    "*://www.google.tn/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.ad/*",
+        "*://www.google.be/*",
+        "*://www.google.ca/*",
+        "*://www.google.ch/*",
+        "*://www.google.co.jp/*",
+        "*://www.google.co.nz/*",
+        "*://www.google.co.uk/*",
+        "*://www.google.com/*",
+        "*://www.google.com.au/*",
+        "*://www.google.de/*",
+        "*://www.google.dz/*",
+        "*://www.google.es/*",
+        "*://www.google.fr/*",
+        "*://www.google.gp/*",
+        "*://www.google.lu/*",
+        "*://www.google.ma/*",
+        "*://www.google.pt/*",
+        "*://www.google.tn/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

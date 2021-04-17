@@ -1,0 +1,23 @@
+{
+  "consent_panel_hidden": {
+    "message": "The Google cookie consent panel is currently hidden."
+  },
+  "consent_panel_unknown": {
+    "message": "The Google cookie consent panel could not be hidden. Please note that you may have a Google cookie on your machine!"
+  },
+  "extension_desc": {
+    "message": "Google Consent Bypass hides the European cookie consent panel from Google Search."
+  },
+  "extension_title": {
+    "message": "Google Consent Bypass"
+  },
+  "extension_title_logo": {
+    "message": "Google Consent Bypass logo"
+  },
+  "github": {
+    "message": "🖱️ Fork Google Consent Bypass on <b>GitHub</b>!"
+  },
+  "not_supported": {
+    "message": "Page not supported."
+  }
+}
