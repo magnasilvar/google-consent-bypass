@@ -1,10 +1,8 @@
 'use strict';
 
-const consentPanelId = 'Sx9Kwc';
-
 function defineBadgeInfo() {
   const extTitle = chrome.i18n.getMessage('extension_title') + ' - ';
-  if (document.getElementById(consentPanelId)) {
+  if (document.querySelectorAll('div[aria-labelledby]').length === 1) {
     return { text: '✔️', color: '#73ad21', title: extTitle + chrome.i18n.getMessage('consent_panel_hidden') };
   }
   return { text: '❔', color: 'yellow', title: extTitle + chrome.i18n.getMessage('consent_panel_unknown') };

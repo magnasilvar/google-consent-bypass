@@ -1,11 +1,9 @@
 'use strict';
 
-const consentPanelId = 'Sx9Kwc';
-
 function onMutation(mutations) {
   for (const { addedNodes } of mutations) {
     for (const node of addedNodes) {
-      if (node.id === consentPanelId) {
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName == 'DIV' && node.hasAttribute('aria-labelledby')) {
         observer.disconnect();
         node.style.visibility = 'hidden';
         document.body.style.overflow = 'visible';
