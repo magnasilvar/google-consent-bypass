@@ -40,7 +40,7 @@
 
 ## How to install it
 **Google Consent Bypass** is not available on *Chrome Web Store*, you have to install it manually:
-* Download [google-consent-bypass-0.2.0.crx](https://github.com/magnasilvar/google-consent-bypass/releases/download/0.2.0/google-consent-bypass-0.2.0.crx) and unzip it.
+* Download [google-consent-bypass-0.2.1.crx](https://github.com/magnasilvar/google-consent-bypass/releases/download/0.2.1/google-consent-bypass-0.2.1.crx) and unzip it.
 * Go to the [chrome://extensions](chrome://extensions) page.
 * Enable `Developer Mode`.
 * Click the `Load unpacked` button and select the unzipped extension folder.
