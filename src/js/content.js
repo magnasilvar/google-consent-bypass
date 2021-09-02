@@ -3,7 +3,7 @@
 function onMutation(mutations) {
   for (const { addedNodes } of mutations) {
     for (const node of addedNodes) {
-      if (node.nodeType === Node.ELEMENT_NODE && node.tagName == 'DIV' && node.hasAttribute('aria-labelledby')) {
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName == 'DIV' && node.hasAttribute('aria-modal')) {
         observer.disconnect();
         node.style.visibility = 'hidden';
         document.body.style.overflow = 'visible';
