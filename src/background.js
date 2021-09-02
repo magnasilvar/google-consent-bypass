@@ -2,7 +2,7 @@
 
 function defineBadgeInfo() {
   const extTitle = chrome.i18n.getMessage('extension_title') + ' - ';
-  if (document.querySelectorAll('div[aria-labelledby]').length === 1) {
+  if (document.querySelectorAll('div[aria-modal]').length === 1) {
     return { text: '✔️', color: '#73ad21', title: extTitle + chrome.i18n.getMessage('consent_panel_hidden') };
   }
   return { text: '❔', color: 'yellow', title: extTitle + chrome.i18n.getMessage('consent_panel_unknown') };
