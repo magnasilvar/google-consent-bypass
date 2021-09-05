@@ -37,6 +37,7 @@
 * [www.google.ma](https://www.google.ma)
 * [www.google.pt](https://www.google.pt)
 * [www.google.tn](https://www.google.tn)
+* [chrome.google.com](https://chrome.google.com)
 
 ## How to install it
 **Google Consent Bypass** is not available on *Chrome Web Store*, you have to install it manually:
