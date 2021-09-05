@@ -44,7 +44,8 @@
     "*://www.google.lu/",
     "*://www.google.ma/",
     "*://www.google.pt/",
-    "*://www.google.tn/"
+    "*://www.google.tn/",
+    "*://chrome.google.com/"
   ],
   "content_scripts": [
     {
@@ -66,7 +67,8 @@
         "*://www.google.lu/*",
         "*://www.google.ma/*",
         "*://www.google.pt/*",
-        "*://www.google.tn/*"
+        "*://www.google.tn/*",
+        "*://chrome.google.com/*"
       ],
       "run_at": "document_start",
       "js": [
